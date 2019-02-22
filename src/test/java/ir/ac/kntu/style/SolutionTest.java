@@ -17,7 +17,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * 10 points
+ * 15 points
  * @author mhrimaz
  */
 public class SolutionTest {
@@ -30,7 +30,7 @@ public class SolutionTest {
         String[] res = new String[]{"D","C","B","A"};
         ArrayReverse.reverse(array);
         assertArrayEquals(res, array);
-        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:4 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
+        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:5 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
     }
 
     @Test
@@ -39,7 +39,7 @@ public class SolutionTest {
         String[] res = new String[]{"C","B","A"};
         ArrayReverse.reverse(array);
         assertArrayEquals(res, array);
-        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:4 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
+        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:5 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
     }
     
         @Test
@@ -48,6 +48,6 @@ public class SolutionTest {
         String[] res = new String[]{"A"};
         ArrayReverse.reverse(array);
         assertArrayEquals(res, array);
-        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:2 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
+        System.err.println("$$$GRADER$$$ | { type:\"SCORE\" , amount:5 , reason:\"Test Passed.\" } | $$$GRADER$$$" );
     }
 }
